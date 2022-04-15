@@ -21,6 +21,12 @@ margin: 0;
 button {
    cursor: pointer;
 }
+.container {
+   width: 1200px;
+   padding-left: 15px;
+   padding-right: 15px;
+   margin: 0 auto;
+}
 .logo-text { 
    text-decoration: none;
    font-family: 'Raleway';
@@ -30,12 +36,16 @@ button {
    line-height: 1.19;
    letter-spacing: 0.03em;
 }
+.header {
+   padding-top: 32px;
+   padding-bottom: 32px;
+}
 .header-logo { 
    color: #2196F3;
- }
+}
  .header-log {
    color: black;
- }
+}
 .header-list {
    list-style: none; }
 .header-link {
@@ -74,6 +84,11 @@ button {
    .hero {
     background-color:#2F303A;
    }
+   .hero {
+      padding-top: 200px;
+      padding-bottom: 280px;
+      padding-left: 452px;
+   }
  .hero-title {
     font-weight: 900;
     font-size: 44px;
@@ -82,6 +97,7 @@ button {
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--hero-color);
+    
  }
  .hero-button {
     border: none;
