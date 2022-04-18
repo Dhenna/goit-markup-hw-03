@@ -95,7 +95,12 @@ button {
 .header-tel:focus {
     color: var(--hover-focus-color) }
    .hero {
+      padding-top: 200px;
+    padding-bottom: 280px;
     background-color:#2F303A;
+}
+.hero-blok {
+   margin-bottom: 30px;
 }
    .hero-title {
     font-weight: 900;
@@ -106,9 +111,7 @@ button {
     text-transform: uppercase;
     color: var(--hero-color);
     max-width: 696px;
-    padding-top: 200px;
-    padding-bottom: 30px;
-    margin-left: 237px;
+    margin: 0 auto; 
 }
 .hero-button {
     border: none;
@@ -120,15 +123,17 @@ button {
     text-align: center;
     letter-spacing: 0.06em;
     padding: 10px 32px;
-    margin-bottom: 200px;
-    margin-left: 485px;
+    margin: 0 auto;
+    display: block;
     color: white;
+}
+.feature {
+   padding-top: 94px;
+   padding-bottom: 94px;
 }
 .feature-list {
     display: flex;
     list-style: none;
-    padding-top: 94px;
-    padding-bottom: 94px;
 }
 .feature-item:not(:last-child) {
    margin-right: 30px;
@@ -152,10 +157,13 @@ button {
 .work {
 margin-bottom: 94px;
 }
+.team-title {
+  
+}
 .work-list {
    display: flex;
     list-style: none;
-    padding-top: 50px;
+    margin-top: 50px;
 }
 .work-item:not(:last-child) {
    margin-right: 30px;
@@ -168,19 +176,23 @@ margin-bottom: 94px;
     letter-spacing: 0.03em;
     color: var(--work-title-color)
 }
+.team {
+   padding-top: 94px;
+   padding-bottom: 94px;
+}
 .team-title {
 font-weight: 700;
 font-size: 36px;
 line-height: 1.16;
 text-align: center;
 letter-spacing: 0.03em;
-padding-top: 94px;
-padding-bottom: 50px;
+
 color: var(--team-title-color)
 }
 .team-list {
 list-style: none;
 display: flex;
+margin-top: 50px;
 }
 .team-item:not(:last-child) {
    margin-right: 30px;
@@ -189,24 +201,30 @@ display: flex;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.19;
+text-align: center;
 letter-spacing: 0.03em;
 padding-top: 30px;
 padding-bottom: 10px;
+
 color: #212121;
 }
 .team-text {
 font-weight: 400;
 font-size: 16px;
 line-height: 1.19;
+text-align: center;
 letter-spacing: 0.03em;
-padding-bottom: 124px;
+
 color: #757575;
 }
 .footer {
     background-color:#2F303A;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
+
 .logo {
-   padding-top: 60px;
+   margin-bottom: 20px;
 }
 .footer-logo { 
    color: #2196F3;
@@ -215,11 +233,10 @@ color: #757575;
    color: white; 
 } 
 .footer-list {
-padding-top: 20px;
-padding-bottom: 60px;
+   list-style: none;
 }
 .footer-item {
-    list-style: none;
+    font-style: normal;
 }
 .footer-link {
 text-decoration: none;
@@ -227,6 +244,7 @@ font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
+padding-bottom: 9px;
 color: #FFFFFF;
 }
 .footer-mail,
@@ -236,17 +254,23 @@ color: #FFFFFF;
    font-size: 14px;
    line-height: 1.71;
    letter-spacing: 0.03em;
-   padding-top: 9px;
    color: rgba(255, 255, 255, 0.6);
+}
+.footer-mail {
+  padding-bottom: 9px;
+}
+.btnproject {
+   padding-top: 94px;
+   padding-bottom: 94px;
 }
 .btn-list { 
    display: flex;
    list-style: none;
-   margin-top: 94px;
    margin-left: 280px;
 } 
 .btn-item:not(:last-child) {
    margin-right: 8px;
+   margin-bottom: 50px;
 }
 .btn-btn { 
 border: none;
@@ -265,8 +289,7 @@ color: var(--btn-btn-color)
     color: #FFFFFF;
 }
 .container-list {
-   margin-top: 34px;
-   margin-bottom: 94px;
+  
 }
 .project-list {
    list-style: none;
@@ -281,13 +304,14 @@ color: var(--btn-btn-color)
    margin-bottom: 30px;
    border: 1px solid #EEEEEE
 }
+.project-blok {
+   padding: 20px 24px;
+}
 .project-title {
 font-weight: 700;
 font-size: 18px;
 line-height: 2;
 letter-spacing: 0.06em;
-padding-top: 20px;
-padding-left: 24px;
 padding-bottom: 4px;
 color: var(--project-title-color)
 }
@@ -296,7 +320,5 @@ font-weight: 400;
 font-size: 16px;
 line-height: 1.88;
 letter-spacing: 0.03em;
-padding-bottom: 20px;
-padding-left: 24px;
 color: #757575;
 }
