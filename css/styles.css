@@ -70,7 +70,8 @@ button {
 }
 .header-link:hover,
 .header-link:focus {
-    color: var(--hover-focus-color) }
+    color: var(--hover-focus-color)
+}
 .header-mail {
     text-decoration: none;
     font-weight: 500;
@@ -81,7 +82,8 @@ button {
 }
 .header-mail:hover,
 .header-mail:focus {
-    color: var(--hover-focus-color) }
+    color: var(--hover-focus-color)
+}
 .header-tel {
     text-decoration: none;
     font-weight: 500;
@@ -93,9 +95,10 @@ button {
 }
 .header-tel:hover,
 .header-tel:focus {
-    color: var(--hover-focus-color) }
+    color: var(--hover-focus-color)
+}
    .hero {
-      padding-top: 200px;
+    padding-top: 200px;
     padding-bottom: 280px;
     background-color:#2F303A;
 }
@@ -157,9 +160,6 @@ button {
 .work {
 margin-bottom: 94px;
 }
-.team-title {
-  
-}
 .work-list {
    display: flex;
     list-style: none;
@@ -186,7 +186,6 @@ font-size: 36px;
 line-height: 1.16;
 text-align: center;
 letter-spacing: 0.03em;
-
 color: var(--team-title-color)
 }
 .team-list {
@@ -205,7 +204,6 @@ text-align: center;
 letter-spacing: 0.03em;
 padding-top: 30px;
 padding-bottom: 10px;
-
 color: #212121;
 }
 .team-text {
@@ -214,7 +212,6 @@ font-size: 16px;
 line-height: 1.19;
 text-align: center;
 letter-spacing: 0.03em;
-
 color: #757575;
 }
 .footer {
@@ -222,7 +219,6 @@ color: #757575;
     padding-top: 60px;
     padding-bottom: 60px;
 }
-
 .logo {
    margin-bottom: 20px;
 }
@@ -287,9 +283,6 @@ color: var(--btn-btn-color)
 .btn-btn:focus {
     background-color: var(--hover-focus-color);
     color: #FFFFFF;
-}
-.container-list {
-  
 }
 .project-list {
    list-style: none;
