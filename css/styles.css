@@ -84,6 +84,13 @@ button {
 .header-mail:focus {
     color: var(--hover-focus-color)
 }
+.header-icon {
+   fill: #afb1b8;
+}
+.header-icon:hover,
+.header-icon:focus {
+   fill: var(--hover-focus-color)
+}
 .header-tel {
     text-decoration: none;
     font-weight: 500;
@@ -98,9 +105,16 @@ button {
     color: var(--hover-focus-color)
 }
 .hero {
-    padding-top: 200px;
-    padding-bottom: 200px;
-    background-color:#2F303A;
+   padding-top: 200px;
+   padding-bottom: 200px;
+   background-color: #2F303A;
+   background-image: linear-gradient(rgba(47, 48, 58, 0.4),
+         rgba(47, 48, 58, 0.4)),
+      url(../images/Img17.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      max-width: 1600px;
+      margin: 0 auto;
 }
 .hero-blok {
    margin-bottom: 30px;
@@ -137,6 +151,16 @@ button {
 .feature-list {
     display: flex;
     list-style: none;
+}
+.feature-soc-link {
+   display: inline-block;
+   content: ' ';
+   width: 270px;
+   height: 120px;
+   background: #F5F4FA;
+   border-radius: 4px;
+   margin-bottom: 30px;
+   border: none;
 }
 .feature-item:not(:last-child) {
    margin-right: 30px;
@@ -179,6 +203,7 @@ button {
 .team {
     padding-top: 94px;
     padding-bottom: 94px;
+    background: #F5F4FA;
 }
 .team-title {
     font-weight: 700;
@@ -192,6 +217,13 @@ button {
     list-style: none;
     display: flex;
     margin-top: 50px;
+}
+.team-item {
+   width: 270px;
+   height: 428px;
+   background: #FFFFFF;
+   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+   border-radius: 0px 0px 4px 4px;
 }
 .team-item:not(:last-child) {
     margin-right: 30px;
@@ -216,6 +248,75 @@ button {
    text-align: center;
    letter-spacing: 0.03em;
    color: #757575;
+   margin-bottom: 16px;
+}
+.team-soc-list {
+   list-style: none;
+   display: flex;
+   justify-content: center;
+}
+.team-soc-item + .team-soc-item {
+   margin-left: 10px;
+}
+.team-soc-link {
+   width: 44px;
+   height: 44px;
+   background-color: #FFFFFF;
+   border-radius: 50%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.team-soc-icon {
+fill: #afb1b8
+}
+.team-soc-link:hover {
+   background-color: var(--hover-focus-color);
+}
+.team-soc-link:hover .team-soc-icon {
+   fill: #FFFFFF;
+}
+.team-soc-link:focus {
+   background-color: var(--hover-focus-color);
+}
+.team-soc-link:focus .team-soc-icon {
+   fill: #FFFFFF;
+}
+.clients {
+   padding-top: 94px;
+   padding-bottom: 94px;
+}
+.clients-title {
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 1.17;
+      text-align: center;
+      letter-spacing: 0.03em;
+      color: var(--work-title-color)
+}
+.clients-list {
+   list-style: none;
+   display: flex;
+   justify-content: center;
+}
+.clients-item + .clients-item {
+   margin-left: 30px;
+}
+.clients-link {
+   width: 170px;
+   height: 92px;
+   border: 1px solid #AFB1B8;
+   margin-top: 50px;
+   border-radius: 4px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.clients-soc-icon {
+   fill: #afb1b8
+}
+.clients-soc-icon:hover {
+   fill: var(--hover-focus-color);
 }
 .footer {
    background-color:#2F303A;
@@ -258,6 +359,48 @@ button {
 .footer-mail {
    padding-bottom: 9px;
 }
+.footer-text {
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 1.14;
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
+      color: #FFFFFF;
+      margin-bottom: 20px;
+}
+.footer-soc-list {
+   list-style: none;
+   display: flex;
+   
+}
+.footer-soc-item + .footer-soc-item {
+   margin-left: 10px;
+}
+.footer-soc-link {
+   width: 44px;
+   height: 44px;
+   background-color: rgba(255, 255, 255, 0.1);
+   border-radius: 50%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.footer-soc-link:hover {
+   background-color: var(--hover-focus-color);
+}
+
+.footer-soc-link:hover .team-soc-icon {
+   fill: #FFFFFF;
+}
+
+.footer-soc-link:focus {
+   background-color: var(--hover-focus-color);
+}
+
+.footer-soc-link:focus .team-soc-icon {
+   fill: #FFFFFF;
+}
+
 .btnproject {
    padding-top: 94px;
    padding-bottom: 94px;
@@ -286,6 +429,10 @@ button {
 .btn-btn:focus {
    background-color: var(--hover-focus-color);
    color: #FFFFFF;
+   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
+   0px 1px 2px rgba(0, 0, 0, 0.08),
+   0px 2px 2px rgba(0, 0, 0, 0.12);
+   border-radius: 4px;
 }
 .project-list {
    list-style: none;
@@ -299,6 +446,12 @@ button {
    margin-left: 30px;
    margin-bottom: 30px;
    border: 1px solid #EEEEEE
+}
+.project-item:hover {
+   border: 1px solid #EEEEEE;
+   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
+   0px 4px 4px rgba(0, 0, 0, 0.06),
+   1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 .project-blok {
    padding: 20px 24px;
